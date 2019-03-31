@@ -1,0 +1,52 @@
+.about-page {
+  height: 820px;
+  background: url("../../images/img_moon.svg") no-repeat -130% -30%, url("../../images/IMG_BG_1.png") no-repeat 50% 50%;
+  text-align: left;
+  position: relative;
+
+  .wrapper {
+    position: relative;
+    padding: 100px 186px 10px 236px;
+
+    h2 {
+      font-size: 28px;
+      letter-spacing: 8.4px;
+    }
+
+    .about-info {
+      display: flex;
+      justify-content: space-between;
+      padding: 70px 0 100px;
+      margin-left: -30px;
+
+      .about-info__item {
+        text-align: center;
+        max-width: 154px;
+
+        p {
+          padding-top: 35px;
+          font-family: Roboto;
+          font-size: 16px;
+          line-height: 1.76;
+          letter-spacing: 1.6px;
+        }
+      }
+    }
+
+    .about-link {
+      display: flex;
+      justify-content: space-around;
+      text-transform: uppercase;
+      border-top: 1px solid #ffffff;
+      border-bottom: 1px solid #ffffff;
+      padding: 30px 0;
+
+      p {
+
+      }
+    }
+
+  }
+
+
+}

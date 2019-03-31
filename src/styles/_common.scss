@@ -1,8 +1,10 @@
 body {
   margin: 0;
   min-height: 100vh;
-  //font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
   font-size: 18px;
+  color: #fff;
 }
 
 *,
@@ -18,19 +20,25 @@ img {
 
 h1, h2, h3, h4 {
   margin: 0;
-  //text-transform: uppercase;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
 }
 
 p {
   margin: 0;
 }
 
-a,
-a:hover,
-a:active {
+a {
   text-decoration: none;
   display: inline-block;
-  //color: #000;
+  color: #fff;
+  transition: 0.5s;
+}
+
+a:hover,
+a:active {
+  color: #9A9A9A;
 }
 
 ul {
@@ -44,4 +52,8 @@ ul {
   max-width: 1440px;
   margin: 0 auto;
   position: relative;
+
+  @media screen and (max-width: 1470px) {
+    width: 100%;
+  }
 }
